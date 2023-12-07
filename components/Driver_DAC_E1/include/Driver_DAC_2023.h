@@ -67,7 +67,7 @@ extern volatile uint32_t * const CLK_CONF_REG;
 /****************************************************************************
 * Function: DAC_CLK_INV_FH
 * Preconditions: Ninguna
-* Overview: inversión del reloj del DAC, Forces PDAC_CLK to be 1
+* Overview: inversiï¿½n del reloj del DAC, Forces PDAC_CLK to be 1
 * Input: 0 =  Apagado Y 1 = Encendido
 * Output: Ninguna
 * Nota:  SENS_SAR_DAC1
@@ -77,7 +77,7 @@ extern volatile uint32_t * const CLK_CONF_REG;
 /****************************************************************************
 * Function: DAC_CLK_INV_FL
 * Preconditions: Ninguna
-* Overview: inversión del reloj del DAC, Forces PDAC_CLK to be 0
+* Overview: inversiï¿½n del reloj del DAC, Forces PDAC_CLK to be 0
 * Input: 0 =  Apagado Y 1 = Encendido
 * Output: Ninguna
 * Nota:  SENS_SAR_DAC1
@@ -142,7 +142,7 @@ extern volatile uint32_t * const CLK_CONF_REG;
 /****************************************************************************
 * Function: USE_DMA
 * Preconditions: Ninguna
-* Overview: Se usa DMA para mostrar el valor por el PIN DAC
+* Overview: Se usa DMA para mostrar el valor por el PIN DAC2
 * Input: 1 = encendido, 0 = apagado
 * Output: Ninguna
 *****************************************************************************/
@@ -319,7 +319,7 @@ void Dac_get_number(dac_channel_x channel, gpio_num_x *gpio_num);
 /****************************************************************************
 * Function: Dac_ON
 * Preconditions: Ninguns
-* Overview: Enciende el módulo DAC
+* Overview: Enciende el mï¿½dulo DAC
 * Input: Canal (0 o 1)
 * Output: Ninguna
 *
@@ -329,7 +329,7 @@ void Dac_ON(dac_channel_x channel);
 /****************************************************************************
 * Function: Dac_OFF
 * Preconditions: Ninguns
-* Overview: Apaga el módulo DAC
+* Overview: Apaga el mï¿½dulo DAC
 * Input: Canal (0 o 1)
 * Output: Ninguna
 *
